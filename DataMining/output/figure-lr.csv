@@ -1,0 +1,3 @@
+model,cost,accuracy,TP,FP,FN,TN,f1_macro,f1_micro
+"Pipeline(steps=[('poly', PolynomialFeatures(degree=4)),
+                ('classifier', LogisticRegression())])",1.597561579997057,0.9556770352119905,15900,642,1085,21337,0.9547968784638653,0.9556770352119905
