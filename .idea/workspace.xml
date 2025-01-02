@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f719b545-b21f-4655-b627-ca8d39d97136" name="Changes" comment="revise c4.5 and svm (rbf)">
-      <change afterPath="$PROJECT_DIR$/DataMining/output/figure-lr.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataMining/output/figure.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/logistic_regression-1.0.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C4.5-3.0.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model/C4.5-3.0.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/C4.5.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/decision_tree.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/model_lib/fixed_c45.py" beforeDir="false" afterPath="$PROJECT_DIR$/model_lib/fixed_c45.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svm-1.0.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/svm-1.0.ipynb" afterDir="false" />
+    <list default="true" id="f719b545-b21f-4655-b627-ca8d39d97136" name="Changes" comment="add backpropagation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/neutral_network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model/neutral_network.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,12 +16,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Chiến Trần &lt;116490257+tcc3281@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="chung" />
@@ -45,7 +44,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/tuankhaido/DecisionTree-Classification-of-airline-passenger-satisfaction.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/tcc3281/Classification-of-airline-passenger-satisfaction.git&quot;,
     &quot;accountId&quot;: &quot;b2962025-6a11-432a-bd4f-7fa340716faf&quot;
   }
 }</component>
@@ -53,6 +52,7 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2pQBtTNB9YuZI4f4rEr6TRprLJ1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,8 +61,8 @@
   &quot;keyToString&quot;: {
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;c45&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/tai_lieu/Nam4-ki1/Machine_Learning/DecisionTree-Classification-of-airline-passenger-satisfaction&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/tai_lieu/Nam4-ki1/Machine_Learning/DecisionTree-Classification-of-airline-passenger-satisfaction/model&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,6 +74,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tai_lieu\Nam4-ki1\Machine_Learning\DecisionTree-Classification-of-airline-passenger-satisfaction\model" />
       <recent name="D:\tai_lieu\Nam4-ki1\Machine_Learning\DecisionTree-Classification-of-airline-passenger-satisfaction" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -146,6 +147,15 @@
       <workItem from="1734048421716" duration="369000" />
       <workItem from="1734048816999" duration="440000" />
       <workItem from="1734787586001" duration="54000" />
+      <workItem from="1734787657199" duration="1898000" />
+      <workItem from="1735353923355" duration="93000" />
+      <workItem from="1735630597609" duration="1541000" />
+      <workItem from="1735706392812" duration="69000" />
+      <workItem from="1735793487551" duration="622000" />
+      <workItem from="1735803250982" duration="4039000" />
+      <workItem from="1735807363641" duration="3400000" />
+      <workItem from="1735810946138" duration="1410000" />
+      <workItem from="1735823645379" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="update 1">
       <option name="closed" value="true" />
@@ -179,7 +189,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733679971278</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="initiate">
+      <option name="closed" value="true" />
+      <created>1734787801084</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734787801084</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add backpropagation">
+      <option name="closed" value="true" />
+      <created>1735811018316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1735811018316</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +227,11 @@
     <MESSAGE value="build C4.5" />
     <MESSAGE value="build svm" />
     <MESSAGE value="revise c4.5 and svm (rbf)" />
-    <option name="LAST_COMMIT_MESSAGE" value="revise c4.5 and svm (rbf)" />
+    <MESSAGE value="initiate" />
+    <MESSAGE value="initiate&#10;&#10;Signed-off-by: Chiến Trần &lt;116490257+tcc3281@users.noreply.github.com&gt;" />
+    <MESSAGE value="add backpropagation" />
+    <MESSAGE value="add backpropagation&#10;&#10;Signed-off-by: Chiến Trần &lt;116490257+tcc3281@users.noreply.github.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="add backpropagation&#10;&#10;Signed-off-by: Chiến Trần &lt;116490257+tcc3281@users.noreply.github.com&gt;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DecisionTree_Classification_of_airline_passenger_satisfaction$main.coverage" NAME="main Coverage Results" MODIFIED="1733663310352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
