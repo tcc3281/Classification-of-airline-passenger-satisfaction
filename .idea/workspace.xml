@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f719b545-b21f-4655-b627-ca8d39d97136" name="Changes" comment="add backpropagation">
+    <list default="true" id="f719b545-b21f-4655-b627-ca8d39d97136" name="Changes" comment="add backpropagation&#10;&#10;Signed-off-by: Chiến Trần &lt;116490257+tcc3281@users.noreply.github.com&gt;">
+      <change afterPath="$PROJECT_DIR$/root.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DecisionTree-Classification-of-airline-passenger-satisfaction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DecisionTree-Classification-of-airline-passenger-satisfaction.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/neutral_network.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model/neutral_network.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm-1.0.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/model/svm-1.0.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +65,7 @@
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/tai_lieu/Nam4-ki1/Machine_Learning/DecisionTree-Classification-of-airline-passenger-satisfaction/model&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/tai_lieu/Nam4-ki1/Machine_Learning/DecisionTree-Classification-of-airline-passenger-satisfaction&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -74,8 +77,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\tai_lieu\Nam4-ki1\Machine_Learning\DecisionTree-Classification-of-airline-passenger-satisfaction\model" />
       <recent name="D:\tai_lieu\Nam4-ki1\Machine_Learning\DecisionTree-Classification-of-airline-passenger-satisfaction" />
+      <recent name="D:\tai_lieu\Nam4-ki1\Machine_Learning\DecisionTree-Classification-of-airline-passenger-satisfaction\model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\tai_lieu\Nam4-ki1\Machine_Learning\DecisionTree-Classification-of-airline-passenger-satisfaction\model" />
@@ -155,7 +158,16 @@
       <workItem from="1735803250982" duration="4039000" />
       <workItem from="1735807363641" duration="3400000" />
       <workItem from="1735810946138" duration="1410000" />
-      <workItem from="1735823645379" duration="2327000" />
+      <workItem from="1735823645379" duration="3163000" />
+      <workItem from="1735910076316" duration="784000" />
+      <workItem from="1735914707313" duration="727000" />
+      <workItem from="1735969597172" duration="3162000" />
+      <workItem from="1736223591764" duration="63000" />
+      <workItem from="1739637954214" duration="15261000" />
+      <workItem from="1739871644403" duration="14000" />
+      <workItem from="1740802993552" duration="7000" />
+      <workItem from="1740808408652" duration="618000" />
+      <workItem from="1741091213020" duration="862000" />
     </task>
     <task id="LOCAL-00001" summary="update 1">
       <option name="closed" value="true" />
@@ -205,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735811018316</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add backpropagation&#10;&#10;Signed-off-by: Chiến Trần &lt;116490257+tcc3281@users.noreply.github.com&gt;">
+      <option name="closed" value="true" />
+      <created>1735826497444</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735826497444</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
